@@ -1,0 +1,734 @@
+woolbird must rotate right (2) 
+barnacle must rotate left (-2) 
+eyas child, rotating right 
+woolbird must rotate right (2) 
+lamb must rotate left (-2) 
+progeny child, rotating right 
+wapiti must rotate right (2) 
+progeny must rotate left (-2) 
+froghopper must rotate left (-2) 
+barnacle must rotate right (2) 
+adzebill must rotate left (child) 
+dibatag must rotate left (-2) 
+eel child, rotating right 
+hellbender must rotate right (2) 
+hatchling must rotate left (child) 
+progeny must rotate left (-2) 
+ratel child, rotating right 
+barnacle must rotate left (-2) 
+clownfish child, rotating right 
+adzebill must rotate left (-2) 
+nestling must rotate right (2) 
+litter must rotate left (child) 
+clownfish must rotate right (2) 
+brachet must rotate left (-2) 
+chital child, rotating right 
+ratel must rotate right (2) 
+quokka must rotate left (child) 
+adzebill must rotate right (2) 
+accentor must rotate left (child) 
+hellbender must rotate left (-2) 
+froghopper must rotate left (-2) 
+graphiure child, rotating right 
+sea_otter must rotate left (-2) 
+tilefish child, rotating right 
+amberjack must rotate right (2) 
+adjutant must rotate left (child) 
+chital must rotate left (-2) 
+chiru must rotate right (2) 
+eel must rotate right (2) 
+havier must rotate left (-2) 
+iguana child, rotating right 
+sea_otter must rotate left (-2) 
+springhare child, rotating right 
+adjutant must rotate right (2) 
+quokka must rotate right (2) 
+quickhatch must rotate left (child) 
+froghopper must rotate left (-2) 
+gannet child, rotating right 
+gerenuk must rotate right (2) 
+galah must rotate left (child) 
+tilefish must rotate left (-2) 
+onager must rotate left (-2) 
+phoenicopter child, rotating right 
+lamb must rotate left (-2) 
+progeny must rotate right (2) 
+grison must rotate left (-2) 
+haddock child, rotating right 
+axolotl must rotate left (-2) 
+springhare must rotate left (-2) 
+galah must rotate right (2) 
+grilse must rotate right (2) 
+wapiti must rotate right (2) 
+reebok must rotate left (child) 
+sea_otter must rotate left (-2) 
+phoenicopter must rotate right (2) 
+eyas must rotate left (-2) 
+viscacha must rotate right (2) 
+adjutant must rotate right (2) 
+acipenser must rotate left (child) 
+francolin must rotate right (2) 
+yowie must rotate left (-2) 
+zonure child, rotating right 
+murre must rotate left (-2) 
+brach must rotate right (2) 
+binturong must rotate left (child) 
+hellbender must rotate left (-2) 
+woolbird must rotate left (-2) 
+grison must rotate left (-2) 
+grysbok child, rotating right 
+ibex must rotate right (2) 
+raad must rotate right (2) 
+sea_otter must rotate right (2) 
+tahr must rotate left (-2) 
+numbat must rotate left (-2) 
+stirk must rotate left (-2) 
+knobber must rotate right (2) 
+kaka must rotate left (child) 
+lamb must rotate right (2) 
+iguana must rotate left (child) 
+xiphias must rotate left (-2) 
+yellowfin_tuna child, rotating right 
+onager must rotate right (2) 
+murre must rotate right (2) 
+vireo must rotate right (2) 
+urubu must rotate left (child) 
+eyas must rotate right (2) 
+conure must rotate right (2) 
+coelacanth must rotate left (child) 
+urubu must rotate right (2) 
+umbrella_shell must rotate left (child) 
+mussel must rotate right (2) 
+thylacine must rotate right (2) 
+tamaraw must rotate left (child) 
+havier must rotate right (2) 
+progeny must rotate left (-2) 
+irukandji must rotate right (2) 
+iiwi must rotate left (child) 
+trumpetfish must rotate left (-2) 
+tun_shell child, rotating right 
+aye-aye must rotate left (-2) 
+barasingha child, rotating right 
+porpoise must rotate left (-2) 
+limpkin must rotate right (2) 
+cuttlefish must rotate left (-2) 
+anchovy must rotate left (-2) 
+antechinus child, rotating right 
+douc must rotate right (2) 
+dobbin must rotate left (child) 
+takin must rotate left (-2) 
+yowie must rotate left (-2) 
+zebra_turkeyfish child, rotating right 
+amberjack must rotate left (-2) 
+yellowfin_tuna must rotate right (2) 
+yaffingale must rotate left (child) 
+thylacine must rotate right (2) 
+tayra must rotate left (child) 
+binturong must rotate left (-2) 
+blenny child, rotating right 
+porpoise must rotate right (2) 
+pratincole must rotate right (2) 
+whitecoat must rotate left (-2) 
+klipspringer must rotate right (2) 
+kaka must rotate left (child) 
+meerkat must rotate left (-2) 
+umbrella_shell must rotate left (-2) 
+driftfish must rotate right (2) 
+herring must rotate left (-2) 
+gerenuk must rotate left (-2) 
+graphiure child, rotating right 
+conure must rotate left (-2) 
+coypu child, rotating right 
+earwig must rotate left (-2) 
+ibex must rotate left (-2) 
+ichneumon child, rotating right 
+iguana must rotate right (2) 
+hellbender must rotate left (child) 
+malbrouck must rotate right (2) 
+lorikeet must rotate left (child) 
+jacana must rotate left (-2) 
+trumpetfish must rotate left (-2) 
+tube_worms child, rotating right 
+ibex must rotate right (2) 
+hutia must rotate left (child) 
+stirk must rotate left (-2) 
+fossa must rotate right (2) 
+jacana must rotate right (2) 
+juvenile must rotate right (2) 
+quickhatch must rotate right (2) 
+quelea must rotate left (child) 
+jennet must rotate right (2) 
+caple must rotate left (-2) 
+caracara child, rotating right 
+chital must rotate left (-2) 
+cleg child, rotating right 
+thylacine must rotate right (2) 
+widgeon must rotate right (2) 
+oribi must rotate left (-2) 
+clownfish must rotate left (-2) 
+kine must rotate left (-2) 
+kaka must rotate right (2) 
+jurel must rotate left (child) 
+trumpetfish must rotate right (2) 
+nyala must rotate left (-2) 
+tun_shell must rotate left (-2) 
+uguisu child, rotating right 
+isopods must rotate left (-2) 
+zebu must rotate left (-2) 
+zokor child, rotating right 
+morel must rotate right (2) 
+megalodon must rotate left (child) 
+knobber must rotate left (-2) 
+kudu child, rotating right 
+vaquita must rotate right (2) 
+teg must rotate left (-2) 
+binturong must rotate right (2) 
+oarfish must rotate left (-2) 
+ibis must rotate right (2) 
+oyster must rotate right (2) 
+gerenuk must rotate right (2) 
+gelada must rotate left (child) 
+phoenicopter must rotate right (2) 
+suni must rotate right (2) 
+mackerel must rotate right (2) 
+lorikeet must rotate left (child) 
+bontbok must rotate right (2) 
+vedalia must rotate left (-2) 
+haddock must rotate right (2) 
+guillemot must rotate left (child) 
+zebu must rotate left (-2) 
+zeren child, rotating right 
+whapuku must rotate left (-2) 
+whiffet child, rotating right 
+zho must rotate right (2) 
+jerboa must rotate left (-2) 
+galah must rotate right (2) 
+fugu must rotate left (child) 
+aye-aye must rotate left (-2) 
+douc must rotate left (-2) 
+dragonet child, rotating right 
+limpkin must rotate left (-2) 
+lion child, rotating right 
+tuatara must rotate right (2) 
+trogon must rotate left (child) 
+sitatunga must rotate left (-2) 
+skua child, rotating right 
+saiga must rotate right (2) 
+rooibok must rotate left (child) 
+corella must rotate right (2) 
+aardvark must rotate left (-2) 
+siamang must rotate right (2) 
+needlefish must rotate right (2) 
+narwhal must rotate left (child) 
+gerenuk must rotate left (-2) 
+goa child, rotating right 
+grysbok must rotate right (2) 
+grouper must rotate left (child) 
+froghopper must rotate right (2) 
+filly must rotate left (child) 
+scanderoon must rotate left (-2) 
+sea_lion child, rotating right 
+aardvark must rotate left (-2) 
+aasvogel child, rotating right 
+quarrion must rotate left (-2) 
+quawk child, rotating right 
+yaffingale must rotate left (-2) 
+yeanling child, rotating right 
+blenny must rotate left (-2) 
+xenurine must rotate right (2) 
+caple must rotate right (2) 
+jacana must rotate left (-2) 
+vaquita must rotate left (-2) 
+vireo child, rotating right 
+mackerel must rotate left (-2) 
+malbrouck child, rotating right 
+octodont must rotate left (-2) 
+okapi child, rotating right 
+beira must rotate left (-2) 
+umbrella_shell must rotate left (-2) 
+uraster child, rotating right 
+oryx must rotate left (-2) 
+ouzel child, rotating right 
+saki must rotate left (-2) 
+sea_otter child, rotating right 
+trogon must rotate right (2) 
+tinamou must rotate left (child) 
+puku must rotate left (-2) 
+halibut must rotate left (-2) 
+langur must rotate right (2) 
+lammergeier must rotate left (child) 
+seahorse must rotate right (2) 
+caracara must rotate left (-2) 
+cuttlefish must rotate right (2) 
+culver must rotate left (child) 
+mangabey must rotate left (-2) 
+markhor child, rotating right 
+gelada must rotate right (2) 
+gaur must rotate left (child) 
+tun_shell must rotate left (-2) 
+lechwe must rotate left (-2) 
+linsang child, rotating right 
+iguana must rotate left (-2) 
+jabiru child, rotating right 
+seriema must rotate left (-2) 
+chamois must rotate left (-2) 
+kereru must rotate right (2) 
+kea must rotate left (child) 
+rosella must rotate right (2) 
+rooibok must rotate left (child) 
+xiphias must rotate right (2) 
+*******************************
+INORDER 
+|aardvark(1): medium-sized, burrowing, nocturnal mammal native to Africa
+|aardwolf(2): South African carnivorous fox-like quadruped
+|aasvogel(1): South African vulture
+|abalone(3): a large edible sea snail of coastal waters
+|aberdevine(1): alternate name for the siskin
+|accentor(4): songbird
+|acipenser(1): sturgeon
+|addax(2): spiral-horned antelope dwelling in the Sahara desert
+|adjutant(1): enormous Indian stork
+|adzebill(5): prehistoric flightless bird of New Zealand
+|aepyornis(1): gigantic flightless bird of Madagascar
+|agouti(2): tropical rabbit-sized rodent
+|albacore(1): a prized species of tuna
+|amberjack(3): spiny-finned Atlantic sport fish
+|amphiuma(1): aquatic American salamander with two pairs of small feet
+|anchovy(2): a small, oily fish of the Atlantic and Pacific, providing food for many fish, marine mammals, and birds
+|angelfish(1): a bright-colored fish of coral reefs
+|anhinga(4): long-necked fish-eating tropical American bird
+|anoa(2): small wild ox of Indonesia
+|anole(1): arboreal American lizard with ability to change colour
+|antechinus(3): carnivorous mouselike Australian marsupial
+|argali(1): large-horned Asian wild sheep
+|aurochs(2): extinct wild ox
+|avocet(1): long-legged wading bird with upward-curving bill
+|axolotl(6): salamander dwelling in mountainous lakes
+|aye-aye(1): nocturnal lemur-like animal of Madagascar
+|babirusa(3): large wild pig of Indonesia
+|bandicoot(2): small long-nosed ratlike marsupial
+|bangtail(1): mustang or wild horse
+|banteng(4): wild ox of Southeast Asia
+|barasingha(2): deer dwelling in swamps of India
+|barbet(1): stout-billed tropical bird
+|barnacle(5): an arthropod of coastal waters that attaches itself to rocks and shells
+|barracuda(1): a tropical and subtropical predatory fish with a feisty appearance
+|beira(2): pygmy antelope
+|bharal(1): bluish-gray Himalayan goat
+|binturong(3): civet of southeastern Asia with long prehensile tail
+|biscacha(1): burrowing South American rodent
+|bittern(2): small heron
+|blauwbok(4): extinct bluish-coloured antelope of southern Africa
+|blenny(1): small elongated marine fish
+|blesbok(2): South African antelope with white patch on forehead
+|bongo(1): reddish African antelope with white vertical stripes
+|bontbok(3): South African antelope with unusual coloration
+|borzoi(1): wolf-hound
+|brach(2): female hunting hound
+|brachet(7): whelp; brat; bitch hound
+|brandling(1): striped earthworm used as fishing bait
+|brocken(2): two-year-old stag
+|brood(3): a group of young birds who all have the same mother and were born at the same time
+|bulbul(1): gregarious songbird
+|bullock(5): an ox or castrated bull
+|cabrilla(1): Atlantic sea bass
+|caiman(3): small alligator-like reptile
+|calf(1): a young animal such as a young elephant, whale, or giraffe
+|caple(2): a horse
+|capybara(4): tailless aquatic rodent of South America
+|caracal(1): long-legged nocturnal cat of African and Asian savannahs with long ears
+|caracara(2): long-legged South American falcon
+|cassowary(3): large flightless Melanesian bird
+|chamois(1): goatlike antelope of mountainous regions of Europe
+|chevrotain(2): small cloven-footed deerlike animal of southeast Asia
+|chick(1): a baby bird
+|chiru(6): straight-horned Tibetan antelope
+|chital(2): Indian spotted deer
+|chuckwalla(1): herbivorous desert-dwelling lizard
+|civet(3): long-tailed catlike carnivorous mammal with musk glands
+|cleg(1): horse-fly
+|clownfish(4): a small tropical fish of the Indian and Pacific Oceans, with orange and white stripes
+|cod(1): a deep-sea fish, formerly a staple food in Europe and America, now greatly reduced in numbers in the Atlantic
+|coelacanth(3): lobe-finned fish long thought to be extinct
+|colobus(1): long-tailed African monkey
+|colocolo(2): wild South American cat
+|colt(5): a young male horse
+|colugo(1): flying lemur
+|conch(2): an edible shellfish with a distinctive spiral shell
+|conure(3): tropical parrot-like bird of Central and South America
+|coral(1): polyps, mostly tropical, mostly living in huge colonies along with photosynthesizing microorganisms
+|corella(2): cockateel
+|coypu(1): large aquatic South American rodent
+|cub(9): a young bear, lion, fox, wolf, or other wild animal
+|culex(1): mosquito
+|culver(2): dove or pigeon
+|curlew(1): long-legged migratory bird with downward-curving bill
+|cusk(3): large Atlantic fish like the cod
+|cuttlefish(2): a squid-like creature belonging to the mollusk family
+|dabchick(1): small grebe
+|daw(4): simpleton; bird of the crow family
+|degu(1): rat-like rodent of South America
+|desman(2): aquatic insectivorous musk-secreting Russian rat
+|dhole(1): wild Asian dog
+|dibatag(6): Somali antelope with recurved horns
+|dik-dik(1): small east African antelope
+|diprotodon(2): gigantic prehistoric marsupial with two incisors in lower jaw
+|dobbin(3): workhorse
+|dobsonfly(1): soft-bodied insect with large mandibles
+|dolphin(2): an intelligent, vocal, social sea mammal
+|dottyback(5):  brightly colored fish of coral reefs
+|douc(2): southern Chinese monkey
+|douroucouli(1): small South American nocturnal monkey
+|dowitcher(3): long-billed North American wading bird
+|dragonet(1): a showy tropical fish of the Indian and Pacific Oceans, with dragon-like eyes and fins
+|driftfish(4): perch-like fish of tropical and subtropical waters, often associated with jellyfish or sargasso weed
+|duarf(1): fictitious nineteen-toed fish of Erewhon
+|dugong(2): aquatic herbivorous mammal like the manatee
+|duiker(7): small African antelope
+|dunnart(1): mouse-like marsupial with pointed snout
+|earwig(2): a small insect; to bias; to pester with demands; to eavesdrop
+|echidna(1): Australian toothless spined monotreme resembling a hedgehog
+|eel(3): long-bodied fishes mostly living in shallow waters
+|eland(1): large heavily built African antelope
+|emmet(2): ant
+|eyas(5): unfledged falcon or other bird of prey
+|falanouc(1): carnivorous mongoose-like mammal of Madagascar
+|falconet(2): small variety of falcon
+|fawn(1): a young deer
+|filly(3): a young female horse
+|flounder(1): a flatfish, camouflaged to match the ocean bottom, with both its eyes located on one side
+|foal(2): a young horse, or a young donkey or mule
+|fossa(4): carnivorous mongoose-like mammal of Madagascar
+|francolin(1): type of Asian and African partridge
+|froghopper(3): leaping and spitting insect
+|fugu(1): a puffer fish, a Japanese delicacy, whose body parts contain a nerve toxin
+|galago(2): woolly long-tailed nocturnal lemur (bush baby)
+|galah(1): blue-gray Australian cockatoo
+|gannet(8): large white Atlantic seabird
+|gaur(1): wild ox
+|gayal(2): domesticated ox with tufted tail, native to south Asia
+|gelada(1): long-haired Ethiopian baboon
+|gemsbok(4): large South African antelope
+|genet(1): spotted long-tailed carnivorous mammal like the civet
+|gerenuk(2): long-necked antelope with large eyes
+|gharial(3): large Indian crocodile with long snout
+|goa(1): Tibetan gazelle with backward-curving horns
+|goanna(5): large Australian lizard
+|goral(2): small horned antelope living in mountainous regions of south Asia
+|gowk(1): a cuckoo; a fool
+|graphiure(3): African rodent with pencil-thin tail
+|grayling(2): silver-grey freshwater fish
+|grebe(1): diving bird resembling the loon
+|grilse(6): salmon first returning to the river from the sea
+|grison(1): weasel-like tropical American gray and black carnivore
+|grivet(3): white and olive tufted African monkey
+|grouper(1): a stubby, big-mouthed fish; many can change sex from female to male
+|grunion(2): a small, slender fish that spawns on beaches at night in Southern California and Baja California
+|grysbok(1): small speckled south African antelope
+|guenon(4): small, slender bearded African monkey
+|guereza(1): black and white Ethiopian tufted monkey
+|guillemot(2): narrow-billed Atlantic auk
+|gundi(3): desert-dwelling small rodent of northern Africa with bristles on feet
+|gymnure(1): hairy hedgehog
+|haddock(2): a gray bottom-dwelling fish endemic to the North Atlantic Ocean
+|hake(1): a food fish with an elongated body and a large head
+|halibut(10): worldâ€™s largest flatfish, diamond-shaped, with one dark side and one light
+|hammerkop(1): brown African heron with hammer-shaped crest on head
+|harrier(2): medium-sized scenting dog for hunting hares
+|hatchling(3): a baby bird or animal that has just come out of the egg
+|havier(2): castrated deer
+|heifer(1): a young cow that has not given birth to a calf
+|hellbender(4): large flat North American aquatic salamander
+|herring(1): a popular food fish that travels in large schools
+|hoatzin(2): South American tropical bird whose young have clawed wings
+|hocco(1): South American bird resembling a turkey
+|hogget(6): one-year-old sheep or colt
+|huemul(1): yellow-brown South American deer
+|hutia(2): large Caribbean rat-like rodent
+|hyrax(3): small rodent-like ungulate
+|ibex(1): wild mountain goat with recurved horns
+|ibis(2): large stork-like bird; a pale apricot colour
+|ichneumon(1): small mongoose-like carnivorous quadruped
+|iguana(4): large tropical New World lizard
+|iiwi(1): bright red Hawaiian bird
+|ipiti(3): a small antelope
+|irukandji(2): a tiny but highly venomous jellyfish mostly found off the Australian coast
+|isatis(1): Arctic fox
+|isopods(5): crustaceans, seagoing relatives of sowbugs and pillbugs
+|ithomiid(1): tropical South American butterfly
+|iulus(2): millipede
+|izard(1): goatlike antelope found in the Pyrenees
+|jabiru(4): large tropical stork with massive bill
+|jacana(1): long-toed tropical freshwater wading bird
+|jade(2): pitiful horse; a nag
+|jellyfish(1): among the worldâ€™s most ancient multicelled animals, with a soft, jelly-like â€œbellâ€? and tentacles
+|jennet(3): small Spanish horse
+|jerboa(1): nocturnal desert-dwelling jumping rodent
+|jiboya(2): boa constrictor
+|joey(1): a young kangaroo, wallaby, or possum
+|johndory(7): a coastal fish with an eyelike black mark on each side, and long, spiny dorsal fins
+|junco(1): North American finch
+|jurel(2): coastal fish of southern United States
+|juvenile(4): a young animal or plant
+|kagu(1): long-legged bird of New Caledonia
+|kaka(3): olive-brown parrot native to New Zealand
+|kea(1): green parrot of New Zealand
+|keffel(2): a horse; a nag
+|kereru(1): pigeon variety of New Zealand
+|kiang(5): wild Tibetan horse
+|kid(1): a young goat
+|kine(2): cows
+|kinkajou(1): carnivorous South American raccoon-like mammal
+|kitten(3): a young cat
+|kleenebok(1): small South African antelope
+|klipspringer(4): small African antelope
+|knobber(2): a stag in its second year
+|kob(1): African water antelope
+|kouprey(3): wild ox of Cambodia
+|krill(1): tiny shrimp-like crustaceans, very numerous in all oceans, important food for other creatures
+|kudu(2): African antelope with spiralling horns
+|kyloe(1): small long-haired cattle
+|lamb(6): a young sheep
+|lammergeier(1): giant vulture-like bird of prey
+|lamprey(2): a jawless fish with an eel-like body, circular sucking mouth, and triangular teeth; many are bloodsuckers
+|langur(1): long-tailed Indian monkey
+|lechwe(3): light brown water antelope of South Africa
+|leopon(1): crossbreed between a leopard and a lion
+|leveret(2): a hare in its first year; a mistress
+|limpkin(4): Caribbean crane-like bird
+|ling(1): a long slender fish of the North Atlantic
+|linsang(3): white civet-like Javanese mammal
+|lion(2): large carnivorous cat;
+|lionfish(1): a venomous fish with red and white stripes and spiny dorsal fins
+|litter(5): a group of baby cats, dogs, or other animals that are born at the same time
+|lobster(1): a large crustacean with a muscular tail and two large claws
+|lorikeet(2): brightly coloured southeast Asian parrot
+|loris(1): large-eyed south Asian arboreal primate
+|lutung(3): small monkey of Malaysia
+|mackerel(1): a food fish with a striped back and deeply-pronged tail
+|mahimahi(2): a medium-sized fish with a long back fin running from head to tail
+|malbrouck(1): arboreal monkey of West Africa
+|manatee(8): a large herbivorous sea mammal, related to the dugong, with rounded flippers
+|mangabey(1): long-tailed tropical African monkey
+|mantaray(2): a very large ray (up to 20 feet), a filter-feeder of open oceans
+|markhor(1): reddish-grey central Asian wild goat
+|meerkat(4): small long-tailed African ground squirrel or mongoose
+|megalodon(1): an extinct giant shark, one of the largest predators ever, up to 65 feet long
+|memertea(3): a primitive invertebrate with a stinging organ in its front end
+|morel(2): dark-coloured horse; blackish colour
+|mulloway(1): a predatory fish mostly found on Australian rocky shorelines
+|muntjac(5): small tusked East Asian deer
+|murre(1): white-breasted North Atlantic seabird
+|mussel(3): a two-shelled mollusk; most attach themselves to shoreline rocks with tough threads
+|narwhal(1): an Arctic whale whose males have a long tusk
+|nautilus(2): a primitive mollusk of the tropical Pacific, with a spiral shell and tentacles
+|needlefish(1): a slender-bodied, long-jawed fish of shallow water
+|nestling(7): a baby bird that has not learned to fly
+|nightjar(2): nocturnal insectivorous Old World migratory bird
+|nudibranch(1): a colorful marine slug
+|numbat(3): termite-eating anteater-like marsupial with white stripes
+|nutria(1): amphibious South American rodent
+|nyala(4): large south African antelope
+|oarfish(1): a long, slender, seldom-seen fish; 20-foot specimens occasionally wash up on beaches
+|octodont(2): degu
+|octopus(3): a color-changing mollusk with eight suction-cup-bearing tentacles; the most intelligent invertebrate
+|offspring(1): the baby or babies of an animal
+|okapi(2): short-necked giraffe
+|olm(1): blind aquatic cave-dwelling European salamander
+|onager(6): Asiatic wild ass
+|onocrotal(1): old term for the pelican
+|oribi(2): small African antelope with vertical horns
+|oropendola(3): tropical oriole living in long hanging nests
+|oryx(1): large antelope of Africa and Arabia with long horns
+|ostracod(2): a tiny, two-shelled crustacean, abounding in oceans as well as in humid environments on land
+|ouzel(1): blackbird; a dark-haired person
+|oyster(5): a two-shelled mollusk eaten as a delicacy around the world
+|oystercatcher(1): wading shorebird with reddish bill
+|palfrey(2): riding horse, especially one for a lady
+|pangolin(1): scaly insectivorous mammal with elongated snout
+|peccary(4): tropical New World piglike mammal
+|percheron(1): dappled cart horse
+|petrel(3): long-winged seabird with hooked bill
+|phalarope(1): migratory shorebird with lobed feet
+|phoenicopter(2): flamingo
+|pichi(1): small dark Argentinian armadillo
+|pichiciego(11): small South American armadillo
+|piglet(2): a young pig
+|pika(1): rabbit-like mountain-dwelling mammal with rounded ears
+|pilchard(3): a small, oily fish that typically swims in large schools
+|plankton(1): tiny marine organisms of all kindsâ€”animals, plants, bacteria, algae, protistsâ€”that play a major role in the worldâ€™s food chains and chemical cycles
+|porbeagle(2): shark with a pointed snout
+|porcupinefish(1): a spiny tropical marine fish that can inflate itself
+|porker(4): a young pig that has been made fat so that it can be eaten as pork
+|porpoise(2): a small toothed marine mammal, related to dolphins but with different-shaped nose and teeth
+|potto(1): small nocturnal West African monkey
+|pratincole(3): fork-tailed, long-winged Australian bird
+|prawn(1): a name for the larger kinds of shrimp
+|prion(5): small Antarctic petrel
+|progeny(2): the young animals or plants produced by a particular parent
+|pudu(1): small Chilean deer
+|pufferfish(4): poisonous fish (including fugu, above) that inflate into balloon-like shapes when threatened
+|puku(1): red Central African antelope
+|pullet(3): a chicken that is less than a year old
+|pup(1): a very young dog or seal 
+|puppy(2): a very young dog
+|quahog(6): a round, hard-shelled clam of the US Atlantic coast
+|quarrion(1): Australian parrot like the cockatiel
+|quaviver(2): fish otherwise known as the sea-dragon or dragonet
+|quawk(1): black-crowned night heron
+|quelea(3): an African weaver-bird
+|querquedule(1): pin-tail duck; a teal
+|quetzal(2): gold and green bird with long tail feathers
+|queyock(4): heifer
+|quickhatch(2): wolverine
+|quillfish(1): a long, thin, seldom-seen fish of the northeastern Pacific
+|quinnat(5): the king salmon
+|quokka(2): short-tailed wallaby
+|quoll(1): native cat-like marsupial of Australia
+|raad(3): electric catfish
+|rach(1): dog that hunts by scent
+|ratel(2): honey-eating Old World badger
+|reebok(8): small South African antelope
+|reedbuck(1): antelope frequenting reeds
+|rooibok(2): impala
+|rooirhebok(3): reddish South African antelope
+|rorqual(1): large whale with dorsal fin
+|rosella(2): bright-coloured Australian parakeet
+|saiga(1): migratory Russian antelope
+|saki(4): South American monkey
+|sambar(1): large reddish deer of southern Asia
+|scanderoon(2): homing pigeon
+|sea_cucumber(6): a soft, sausage-shaped echinoderm with leathery skin and a tentacled mouth
+|sea_lion(1): a large, eared seal with long limbs acting as flippers
+|sea_otter(3): a furry marine mammal of the north Pacific that eats sea urchins, mollusks, crustaceans, and fish
+|sea_turtle(2): seven species of turtles that have flippers for limbs; they may live for hundreds of years
+|sea_urchin(1): an echinoderm, often with a spherical body covered with long spines
+|seahorse(5): a small, upright-swimming fish (it really is a fish) with a horse-like head
+|seriema(1): large crested Brazilian bird
+|serow(2): Himalayan and South Asian goatlike antelope
+|serval(1): tawny carnivorous South African catlike quadruped
+|shearling(3): one-year-old sheep
+|siamang(1): southeast Asian gibbon-like black ape
+|siskin(4): small finch-like songbird
+|sitatunga(1): medium-sized east African antelope with elongated hooves
+|skink(2): small north African lizard
+|skua(1): large north Atlantic gull
+|solenodon(7): large Caribbean ratlike insectivore with long snout
+|sounder(1): herd of pigs; young boar
+|spatangoid(3): kind of sea-urchin
+|sponge(1): a marine invertebrate with a porous body without distinct tissues or organs
+|springbok(2): South African antelope known for leaping
+|springhare(4): South African jumping hare
+|starfish(2): predatory star-shaped echinoderms that crawl on tiny tube feet
+|steenbok(1): small South African antelope
+|steer(5): a young male cow that has had its sex organs removed
+|stellion(1): lizard with starry spots
+|stirk(2): yearling ox or cow; pasture for yearlings
+|suckling(1): a baby or young animal that still drinks milk from its mother
+|sumpter(3): pack horse; beast of burden
+|sunbittern(1): brightly coloured South American bird
+|suni(2): dwarfed southern African antelope
+|swordfish(1): a large, migratory fish with a sword-like snout
+|tabanid(9): blood-sucking insect; gad-fly
+|tahr(1): wild Asian goat with shaggy reddish coat
+|takin(3): heavily built Himalayan goatlike ruminant
+|tamandua(1): arboreal New World anteater with hairless tail
+|tamaraw(2): water buffalo
+|tarpan(4): small wild horse of southern Russia
+|tayra(1): small South American weasel-like carnivore
+|teg(2): a sheep in its second year; the fleece of such a sheep
+|tenrec(1): spiny insectivorous mammal of Madagascar
+|thamin(3): small deer with curved horns, native to southeast Asia
+|thylacine(2): extinct doglike marsupial of Tasmania
+|tiger_shark(1): a large shark (up to 16 feet) of tropical and subtropical oceans, with dark stripes
+|tilefish(6): a small, spiny fish of tropical and temperate oceans, preferring coral reefs and sandy areas
+|tinamou(1): ground-dwelling South American bird
+|titi(3): small South American arboreal monkey
+|topi(1): reddish-brown antelope of sub-Saharan Africa
+|trogon(2): tropical bird with brilliant plumage
+|trumpetfish(4): a long, thin fish of the tropical western Atlantic, that often dangles or swims vertically to blend in with its surroundings
+|tsessebe(1): central African antelope with lyre-shaped horns
+|tuatara(2): spiny reptile of New Zealand with vestigial third eye
+|tube_worms(1): a variety of different marine invertebrates that secrete hard tubes to protect themselves
+|tucutucu(5): rat-like burrowing South American rodent
+|tun_shell(1): a tropical sea snail with a rounded shell said to resemble a 'tun' or wine cask
+|turaco(2): crested African colourful bird with long tail and red wings
+|tuza(1): Mexican pouched rodent
+|uakari(3): short-tailed, long-haired monkey
+|uguisu(1): olive-plumed bush warbler
+|uintathere(7): extinct Pleistocene hoofed herbivore
+|umbrella_shell(1): a sea slug (gastropod) with a spotted skirt-shaped body extending from its shell
+|unicornfish(2): an Indo-Pacific fish with a horn-like protrusion on its forehead
+|uraster(1): starfish
+|urial(3): wild central Asian sheep with reddish coat and long curved horns
+|urochs(1): extinct wild ox or bison
+|uromastix(5): spiky-tailed ground-dwelling lizard
+|urraca(1): noisy South American bird
+|urubu(2): black tropical New World vulture
+|vampire_squid(1): a primitive cephalopod living at great depths, covered with light-emitting spots, with dark webbing connecting its tentacles
+|vaquita(3): small porpoise living in the Gulf of California
+|vedalia(2): Australian pest-eating ladybug
+|velvet_crab(1): a small swimming crab of the North Atlantic and western Mediterranean
+|vicuna(4): soft-fleeced Andean ruminant
+|violet_sea_snail(1): a purple sea snail of tropical and subtropical oceans that floats on a raft of mucus bubbles
+|viper_fish(2): a deep-sea fish with long, sharp teeth, big jaws, and an illuminated bell-shaped lure
+|vireo(3): olive-gray insectivorous American bird
+|viscacha(2): South American burrowing rodent
+|walrus(1): a large Arctic marine mammal with long tusks and whiskers
+|wapiti(8): elk
+|wether(1): castrated ram
+|whapuku(2): a large fish, prized for food, from the seas off New Zealand and Australia
+|whelp(3): an old word meaning a very young animal, such as a young dog, bear ,or wolf, that is still being fed by its mother
+|whiffet(1): paltry person; little dog
+|whitecoat(4): white-furred seal pup
+|whiting(1): a food fish of the cod family, of the shallow coastal waters off Europe
+|widgeon(2): freshwater duck
+|wisent(1): extinct European bison
+|woolbird(6): sheep
+|xanthareel(2): yellow eel formerly used in medicinal foods
+|xeme(1): fork-tailed gull
+|xenops(3): a small tropical rainforest bird
+|xenurine(1): species of armadillo
+|xiphias(2): swordfish
+|xiphosuran(1): horseshoe crab
+|yabby(5): small edible freshwater crayfish
+|yaffingale(1): green woodpecker
+|yakow(3): animal crossbred from male yak and domestic cow
+|yapok(1): an amphibious opossum of South America
+|yeanling(2): lamb; kid
+|yearling(4): a young cow, deer, or horse that is between one and two years old
+|yellow_tang(1): a small bright yellow fish of Indo-Pacific reefs, popular in saltwater aquariums
+|yellowfin_tuna(2): a large, fast-moving fish of the open ocean, with yellow dorsal fins
+|yellowtail_amberjack(1): a large food fish of the Indo-Pacific region
+|yelt(7): a young sow
+|yelting(1): glass-eyed snapper
+|yowie(2): a little ewe
+|zander(3): a variety of European perch
+|zebra(1): a striped horse
+|zebra_turkeyfish(2): a spotted-and-striped spiny fish of shallow tropical Indo-Pacific waters
+|zebrinny(5): offspring of male horse and female zebra
+|zebrule(1): hybrid offspring of male zebra and female horse
+|zebu(2): ox with hump and dewlap
+|zemni(3): blind mole-rat
+|zeren(1): light brown Mongolian gazelle
+|zho(2): cross between a yak and a cow
+|zokor(1): central Asian mole-like burrowing rodent
+|zonure(4): small South African lizard
+|zooplankton(1): the huge variety of tiny animals, eggs, and larvae that drift in oceans
+|zyzzyva(2): South American weevil
+
+
+*******************************FIND
+1: |pichiciego(11): small South American armadillo
+11: |falanouc(1): carnivorous mongoose-like mammal of Madagascar
+8: |blauwbok(4): extinct bluish-coloured antelope of southern Africa
+7: |dibatag(6): Somali antelope with recurved horns
+9: |gharial(3): large Indian crocodile with long snout
+11: |duarf(1): fictitious nineteen-toed fish of Erewhon
+11: |kinkajou(1): carnivorous South American raccoon-like mammal
+8: |zyzzyva(2): South American weevil
+7: |tucutucu(5): rat-like burrowing South American rodent
+3: |tabanid(9): blood-sucking insect; gad-fly
+5: |solenodon(7): large Caribbean ratlike insectivore with long snout
+6: |axolotl(6): salamander dwelling in mountainous lakes
+
