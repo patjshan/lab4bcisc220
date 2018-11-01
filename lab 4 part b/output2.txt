@@ -1,0 +1,193 @@
+A LOT OF LEFT ROTATIONS 
+a must rotate left (-2) 
+c must rotate left (-2) 
+b must rotate left (-2) 
+e must rotate left (-2) 
+g must rotate left (-2) 
+f must rotate left (-2) 
+
+*******************************
+PREORDER 
+|d, 4|
+|b, 2|
+|a, 1|
+|c, 1|
+|h, 3|
+|f, 2|
+|e, 1|
+|g, 1|
+|i, 2|
+|j, 1|
+*******************************
+INORDER 
+|a, 1|
+|b, 2|
+|c, 1|
+|d, 4|
+|e, 1|
+|f, 2|
+|g, 1|
+|h, 3|
+|i, 2|
+|j, 1|
+*******************************
+POSTORDER 
+|a, 1|
+|c, 1|
+|b, 2|
+|e, 1|
+|g, 1|
+|f, 2|
+|j, 1|
+|i, 2|
+|h, 3|
+|d, 4|
+
+
+
+
+A LOT OF RIGHT ROTATIONS 
+j must rotate right (2) 
+h must rotate right (2) 
+i must rotate right (2) 
+f must rotate right (2) 
+d must rotate right (2) 
+e must rotate right (2) 
+*******************************
+PREORDER 
+|g, 4|
+|c, 3|
+|b, 2|
+|a, 1|
+|e, 2|
+|d, 1|
+|f, 1|
+|i, 2|
+|h, 1|
+|j, 1|
+*******************************
+INORDER 
+|a, 1|
+|b, 2|
+|c, 3|
+|d, 1|
+|e, 2|
+|f, 1|
+|g, 4|
+|h, 1|
+|i, 2|
+|j, 1|
+*******************************
+POSTORDER 
+|a, 1|
+|b, 2|
+|d, 1|
+|f, 1|
+|e, 2|
+|c, 3|
+|h, 1|
+|j, 1|
+|i, 2|
+|g, 4|
+
+
+
+
+A LOT OF RIGHT-LEFT ROTATIONS 
+g must rotate left (-2) 
+j child, rotating right 
+g must rotate right (2) 
+c must rotate left (child) 
+i must rotate right (2) 
+f must rotate left (child) 
+f must rotate right (2) 
+c must rotate left (child) 
+e must rotate right (2) 
+
+
+*******************************
+PREORDER 
+|g, 4|
+|c, 3|
+|a, 2|
+|b, 1|
+|e, 2|
+|d, 1|
+|f, 1|
+|i, 2|
+|h, 1|
+|j, 1|
+*******************************
+INORDER 
+|a, 2|
+|b, 1|
+|c, 3|
+|d, 1|
+|e, 2|
+|f, 1|
+|g, 4|
+|h, 1|
+|i, 2|
+|j, 1|
+*******************************
+POSTORDER 
+|b, 1|
+|a, 2|
+|d, 1|
+|f, 1|
+|e, 2|
+|c, 3|
+|h, 1|
+|j, 1|
+|i, 2|
+|g, 4|
+
+
+
+
+A LOT OF LEFT-RIGHT ROTATIONS 
+a must rotate left (-2) 
+p child, rotating right 
+p must rotate right (2) 
+d must rotate left (-2) 
+g child, rotating right 
+g must rotate left (-2) 
+p child, rotating right 
+
+
+*******************************
+PREORDER 
+|f, 4|
+|d, 3|
+|a, 2|
+|b, 1|
+|e, 1|
+|k, 3|
+|g, 2|
+|j, 1|
+|p, 2|
+|v, 1|
+*******************************
+INORDER 
+|a, 2|
+|b, 1|
+|d, 3|
+|e, 1|
+|f, 4|
+|g, 2|
+|j, 1|
+|k, 3|
+|p, 2|
+|v, 1|
+*******************************
+POSTORDER 
+|b, 1|
+|a, 2|
+|e, 1|
+|d, 3|
+|j, 1|
+|g, 2|
+|v, 1|
+|p, 2|
+|k, 3|
+|f, 4|
