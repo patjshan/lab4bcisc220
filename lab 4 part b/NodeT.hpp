@@ -15,9 +15,11 @@ public:
 	NodeT *left;
 	NodeT *right;
 	NodeT *parent;
+	string def;
 
 
 	NodeT(string x);
+	NodeT(string x, string d);
 	~NodeT();
 	void printNode();
 };

@@ -15,6 +15,7 @@ class BSTY {
 public:
 	BSTY() ;
 	bool insertit(string x);
+	bool insertit(string x, string y);
 	void adjustHeights(NodeT *n);
 	void printTreeIO();
 	void printTreeIO(NodeT *n);

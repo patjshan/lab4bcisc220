@@ -29,49 +29,103 @@ bool BSTY::insertit(string x ) {
 		insert = true;
 	}
 	else{
-		cout << "entered else" << endl;
+		//cout << "entered else" << endl;
 		NodeT *trav = root; // node used to traverse the tree and compare to tmp
 
 		while (tmp->data != trav->data){ //traverse tree condition
-			cout << "entered while" << endl;
+			//cout << "entered while" << endl;
 			if(tmp->data < trav->data){ // tree traversal left
-				cout << "entered if 1" << endl;
+				//cout << "entered if 1" << endl;
 				if(trav->left == NULL){ // insert condition
-					cout << "entered if 2" << endl;
+					//cout << "entered if 2" << endl;
 					trav->left = tmp; // insert tmp
 					tmp->parent = trav; // assign tmp a parent
 					insert = true; // change the bool value to be returned
-					cout << "pre adjust heights" << endl;
+					//cout << "pre adjust heights" << endl;
 					adjustHeights(tmp); // check the heights of nodes above tmp
-					cout << "post adjust heights" << endl;
+					//cout << "post adjust heights" << endl;
 				}
 				else{ // if insert condition is false
-					cout << "entered else 2" << endl;
+					//cout << "entered else 2" << endl;
 					trav = trav->left; // move the traversal node
 				}
 			}
 			else{ // tree traversal right
-				cout << "entered else 1" << endl;
+				//cout << "entered else 1" << endl;
 				if(trav->right == NULL){ // insert condition
-					cout << "entered if 3" << endl;
+					//cout << "entered if 3" << endl;
 					trav->right = tmp; // insert tmp
 					tmp->parent = trav; // make tmp point to a parent node
 					insert = true; // change boolean to be returned
-					cout << "pre adjust heights" << endl;
+					//cout << "pre adjust heights" << endl;
 					adjustHeights(tmp); // check the heights of nodes above tmp
-					cout << "post adjust heights" << endl;
+					//cout << "post adjust heights" << endl;
 
 				}
 				else{ // if insert condition is false
-					cout << "entered else 3" << endl;
+					//cout << "entered else 3" << endl;
 					trav = trav->right; // move the traversal node
 				}
 			}
 		}
-		cout << "exit while" << endl;
+		//cout << "exit while" << endl;
 	}
 	return insert; // return the bool value
 }
+
+bool BSTY::insertit(string x, string y){
+	bool insert = false; // initialize boolean to be returned later
+		NodeT *tmp = new NodeT(x, y); // make a node with data value x
+		if (root == NULL){
+			root = tmp;
+			//cout << "new root set" << endl;
+			adjustHeights(root);
+			insert = true;
+		}
+		else{
+			//cout << "entered else" << endl;
+			NodeT *trav = root; // node used to traverse the tree and compare to tmp
+
+			while (tmp->data != trav->data){ //traverse tree condition
+				//cout << "entered while" << endl;
+				if(tmp->data < trav->data){ // tree traversal left
+					//cout << "entered if 1" << endl;
+					if(trav->left == NULL){ // insert condition
+						//cout << "entered if 2" << endl;
+						trav->left = tmp; // insert tmp
+						tmp->parent = trav; // assign tmp a parent
+						insert = true; // change the bool value to be returned
+						//cout << "pre adjust heights" << endl;
+						adjustHeights(tmp); // check the heights of nodes above tmp
+						//cout << "post adjust heights" << endl;
+					}
+					else{ // if insert condition is false
+						//cout << "entered else 2" << endl;
+						trav = trav->left; // move the traversal node
+					}
+				}
+				else{ // tree traversal right
+					//cout << "entered else 1" << endl;
+					if(trav->right == NULL){ // insert condition
+						//cout << "entered if 3" << endl;
+						trav->right = tmp; // insert tmp
+						tmp->parent = trav; // make tmp point to a parent node
+						insert = true; // change boolean to be returned
+						//cout << "pre adjust heights" << endl;
+						adjustHeights(tmp); // check the heights of nodes above tmp
+						//cout << "post adjust heights" << endl;
+
+					}
+					else{ // if insert condition is false
+						//cout << "entered else 3" << endl;
+						trav = trav->right; // move the traversal node
+					}
+				}
+			}
+			//cout << "exit while" << endl;
+		}
+		return insert; // return the bool value
+	}
 
 // the adjustHeights method updates the heights of every ancestor of the node n.
 // This method will be massively useful with our next lab, so make sure you have 
@@ -87,7 +141,7 @@ bool BSTY::insertit(string x ) {
 // ancestor is not changed.  
 void BSTY::adjustHeights(NodeT *n) {
 	n->printNode();
-	if(n->left == NULL && n->right == NULL){
+	if((n->left == NULL) && (n->right == NULL)){
 		cout << "entered if AH" << endl;
 		/*
 		 * this is the base case for the height of a node.
@@ -95,191 +149,266 @@ void BSTY::adjustHeights(NodeT *n) {
 		 */
 		n->height = 1;
 	}
-	else{ // take the max of the height of the children and assign n's height to the max + 1
-		cout << "entered else AH" << endl;
-		if (n->right != NULL && n->left != NULL){
-			cout << "entered if 1 AH" << endl;
-			if (findBalance(n) > 1){
-				cout << "entered if 2 AH" << endl;
-				if(findBalance(n->left) < 0){
-					cout << "entered if for rotation" << endl;
-					n = rotateLeft(n->left);
-					n->printNode();
-					if(n->left != NULL && n->right != NULL){
-						n->height = max(n->left->height, n->right->height) + 1;
-					}
-					else if (n->right != NULL){
-						n->height = n->right->height + 1;
-					}
-					else if (n->left != NULL){
-						n->height = n->left->height + 1;
-					}
-					else{
-						n->height = 1;
-					}
-
+	else if ((n->right != NULL) && (n->left != NULL)){
+		cout << "entered else if 1 AH" << endl;
+		if (findBalance(n) > 1){
+			cout << "entered if 2 AH" << endl;
+			if(findBalance(n->left) < 0){
+				cout << "entered if for rotation" << endl;
+				n = rotateLeft(n->left);
+				n = rotateRight(n->parent->parent);
+				NodeT *tmp = n->parent->left;
+				if((tmp->left != NULL) && (tmp->right != NULL)){
+					//cout << "hi" << endl;
+					tmp->height = max(tmp->left->height, tmp->right->height) + 1;
+				}
+				else if (tmp->right != NULL){
+					//cout << "hi 2" << endl;
+					tmp->height = tmp->right->height + 1;
+				}
+				else if (tmp->left != NULL){
+					//cout << "hi 3" << endl;
+					tmp->height = tmp->left->height + 1;
 				}
 				else{
-					cout << "entered else for rotation" << endl;
-					n = rotateRight(n);
-					n->printNode();
-					if(n->left != NULL && n->right != NULL){
-						n->height = max(n->left->height, n->right->height) + 1;
-					}
-					else if (n->right != NULL){
-						n->height = n->right->height + 1;
-					}
-					else if (n->left != NULL){
-						n->height = n->left->height + 1;
-					}
-					else{
-						n->height = 1;
-					}
+					//cout << "hi 4" << endl;
+					tmp->height = 1;
 				}
-			}
-			else if (findBalance(n) < -1){
-				cout << "entered else if 2 AH" << endl;
+				tmp->printNode();
 				n->printNode();
-				n->right->printNode();
-				if(findBalance(n->right) > 0){
-					cout << "entered if for rotation" << endl;
-					n = rotateRight(n->right);
-					n->printNode();
-					if(n->left != NULL && n->right != NULL){
-						n->height = max(n->left->height, n->right->height) + 1;
-					}
-					else if (n->right != NULL){
-						n->height = n->right->height + 1;
-					}
-					else if (n->left != NULL){
-						n->height = n->left->height + 1;
-					}
-					else{
-						n->height = 1;
-					}
+				if((n->left != NULL) && (n->right != NULL)){
+					n->height = max(n->left->height, n->right->height) + 1;
+				}
+				else if (n->right != NULL){
+					n->height = n->right->height + 1;
+				}
+				else if (n->left != NULL){
+					n->height = n->left->height + 1;
 				}
 				else{
-					cout << "entered else for rotation" << endl;
-					n = rotateLeft(n);
-					if(n->left != NULL && n->right != NULL){
-						n->height = max(n->left->height, n->right->height) + 1;
-					}
-					else if (n->right != NULL){
-						n->height = n->right->height + 1;
-					}
-					else if (n->left != NULL){
-						n->height = n->left->height + 1;
-					}
-					else{
-						n->height = 1;
-					}
+					n->height = 1;
+				}
+
+			}
+			else{
+				cout << "entered else for rotation" << endl;
+				n = rotateRight(n);
+				n->printNode();
+				if((n->left != NULL) && (n->right != NULL)){
+					n->height = max(n->left->height, n->right->height) + 1;
+				}
+				else if (n->right != NULL){
+					n->height = n->right->height + 1;
+				}
+				else if (n->left != NULL){
+					n->height = n->left->height + 1;
+				}
+				else{
+					n->height = 1;
+				}
+			}
+		}
+		else if (findBalance(n) < -1){
+			cout << "entered else if 2 AH" << endl;
+			n->printNode();
+			if(findBalance(n->right) > 0){
+				cout << "entered if for rotation" << endl;
+				n = rotateRight(n->right);
+				n = rotateLeft(n->parent->parent);
+				NodeT *tmp = n->parent->right;
+				if((tmp->left != NULL) && (tmp->right != NULL)){
+					//cout << "hi" << endl;
+					tmp->height = max(tmp->left->height, tmp->right->height) + 1;
+				}
+				else if (tmp->right != NULL){
+					//cout << "hi 2" << endl;
+					tmp->height = tmp->right->height + 1;
+				}
+				else if (tmp->left != NULL){
+					//cout << "hi 3" << endl;
+					tmp->height = tmp->left->height + 1;
+				}
+				else{
+					//cout << "hi 4" << endl;
+					tmp->height = 1;
+				}
+				tmp->printNode();
+				n->printNode();
+				if((n->left != NULL) && (n->right != NULL)){
+					n->height = max(n->left->height, n->right->height) + 1;
+				}
+				else if (n->right != NULL){
+					n->height = n->right->height + 1;
+				}
+				else if (n->left != NULL){
+					n->height = n->left->height + 1;
+				}
+				else{
+					n->height = 1;
 				}
 			}
 			else{
-				cout << "entered else 2 AH" << endl;
-			}
-		}
-		else if (n->left != NULL){
-			cout << "entered else if 1 AH" << endl;
-			if(findBalance(n) > 1){
-				cout << "entered if 2 AH" << endl;
-				if(findBalance(n->left) < 0){
-					cout << "entered if for rotation" << endl;
-					n = rotateLeft(n->left);
-					n->printNode();
-					if(n->left != NULL && n->right != NULL){
-						cout << "hi" << endl;
-						n->height = max(n->left->height, n->right->height) + 1;
-					}
-					else if (n->right != NULL){
-						cout << "hi 2" << endl;
-						n->height = n->right->height + 1;
-					}
-					else if (n->left != NULL){
-						cout << "hi 3" << endl;
-						n->height = n->left->height + 1;
-					}
-					else{
-						cout << "hi 4" << endl;
-						n->height = 1;
-					}
+				cout << "entered else for rotation" << endl;
+				n = rotateLeft(n);
+				if((n->left != NULL) && (n->right != NULL)){
+					n->height = max(n->left->height, n->right->height) + 1;
+				}
+				else if (n->right != NULL){
+					n->height = n->right->height + 1;
+				}
+				else if (n->left != NULL){
+					n->height = n->left->height + 1;
 				}
 				else{
-					cout << "entered else for rotation" << endl;
-					n = rotateRight(n);
-					n->printNode();
-					if(n->left != NULL && n->right != NULL){
-						n->height = max(n->left->height, n->right->height) + 1;
-					}
-					else if (n->right != NULL){
-						n->height = n->right->height + 1;
-					}
-					else if (n->left != NULL){
-						n->height = n->left->height + 1;
-					}
-					else{
-						n->height = 1;
-					}
+					n->height = 1;
 				}
-		}
-			else{
-				cout << "entered else 2 AH" << endl;
 			}
 		}
 		else{
-			cout << "entered else 1 AH" << endl;
-			if(findBalance(n) < -1){
-				cout << "entered if 2 AH" << endl;
-				if(findBalance(n->right) > 0){
-					cout << "entered if for rotation" << endl;
-					n = rotateRight(n->right);
-					n->printNode();
-					if(n->left != NULL && n->right != NULL){
-						cout << "hi" << endl;
-						n->height = max(n->left->height, n->right->height) + 1;
-					}
-					else if (n->right != NULL){
-						cout << "hi 2" << endl;
-						n->height = n->right->height + 1;
-					}
-					else if (n->left != NULL){
-						cout << "hi 3" << endl;
-						n->height = n->left->height + 1;
-					}
-					else{
-						cout << "hi 4" << endl;
-						n->height = 1;
-					}
+			cout << "entered else 2 AH" << endl;
+			n->height = max(n->left->height, n->right->height) + 1;
+		}
+	}
+	else if (n->left != NULL){
+		cout << "entered else if  prime 1 AH" << endl;
+		if(findBalance(n) > 1){
+			cout << "entered if 2 AH" << endl;
+			if(findBalance(n->left) < 0){
+				cout << "entered if for rotation" << endl;
+				n = rotateLeft(n->left);
+				//n->printNode();
+				//n->parent->printNode();
+				//n->parent->parent->printNode();
+				n = rotateRight(n->parent->parent);
+				NodeT *tmp = n->parent->left;
+				if((tmp->left != NULL) && (tmp->right != NULL)){
+					//cout << "hi" << endl;
+					tmp->height = max(tmp->left->height, tmp->right->height) + 1;
+				}
+				else if (tmp->right != NULL){
+					//cout << "hi 2" << endl;
+					tmp->height = tmp->right->height + 1;
+				}
+				else if (tmp->left != NULL){
+					//cout << "hi 3" << endl;
+					tmp->height = tmp->left->height + 1;
 				}
 				else{
-					cout << "entered else for rotation" << endl;
-					n = rotateLeft(n);
-
-					if(n->left != NULL && n->right != NULL){
-						cout << "hi" << endl;
-						n->height = max(n->left->height, n->right->height) + 1;
-					}
-					else if (n->left != NULL){
-						cout << "hi2" << endl;
-						n->height = n->left->height + 1;
-					}
-					else if (n->right != NULL){
-						cout << "hi 3" << endl;
-						n->height = n->right->height + 1;
-					}
-					else{
-						cout << "hi 4" << endl;
-						n->height = 1;
-					}
+					//cout << "hi 4" << endl;
+					tmp->height = 1;
 				}
-
+				tmp->printNode();
+				n->printNode();
+				if((n->left != NULL) && (n->right != NULL)){
+					//cout << "hi" << endl;
+					n->height = max(n->left->height, n->right->height) + 1;
+				}
+				else if (n->right != NULL){
+					//cout << "hi 2" << endl;
+					n->height = n->right->height + 1;
+				}
+				else if (n->left != NULL){
+					//cout << "hi 3" << endl;
+					n->height = n->left->height + 1;
+				}
+				else{
+					//cout << "hi 4" << endl;
+					n->height = 1;
+				}
 			}
 			else{
-				cout << "entered else 2 AH" << endl;
-
+				cout << "entered else for rotation" << endl;
+				n = rotateRight(n);
+				n->printNode();
+				if((n->left != NULL) && (n->right != NULL)){
+					n->height = max(n->left->height, n->right->height) + 1;
+				}
+				else if (n->right != NULL){
+					n->height = n->right->height + 1;
+				}
+				else if (n->left != NULL){
+					n->height = n->left->height + 1;
+				}
+				else{
+					n->height = 1;
+				}
 			}
 		}
+		else{
+			cout << "entered else 2 AH" << endl;
+			n->height = n->left->height + 1;
+		}
+	}
+	else{
+		cout << "entered else 1 AH" << endl;
+		if(findBalance(n) < -1){
+			cout << "entered if 2 AH" << endl;
+			if(findBalance(n->right) > 0){
+				cout << "entered if for rotation" << endl;
+				n = rotateRight(n->right);
+				n = rotateLeft(n->parent->parent);
+				NodeT *tmp = n->parent->right;
+				if((tmp->left != NULL) && (tmp->right != NULL)){
+					//cout << "hi" << endl;
+					tmp->height = max(tmp->left->height, tmp->right->height) + 1;
+				}
+				else if (tmp->right != NULL){
+					//cout << "hi 2" << endl;
+					tmp->height = tmp->right->height + 1;
+				}
+				else if (tmp->left != NULL){
+					//cout << "hi 3" << endl;
+					tmp->height = tmp->left->height + 1;
+				}
+				else{
+					//cout << "hi 4" << endl;
+					tmp->height = 1;
+				}
+				tmp->printNode();
+				n->printNode();
+				if((n->left != NULL) && (n->right != NULL)){
+					cout << "hi" << endl;
+					n->height = max(n->left->height, n->right->height) + 1;
+				}
+				else if (n->right != NULL){
+					cout << "hi 2" << endl;
+					n->height = n->right->height + 1;
+				}
+				else if (n->left != NULL){
+					cout << "hi 3" << endl;
+					n->height = n->left->height + 1;
+				}
+				else{
+					cout << "hi 4" << endl;
+					n->height = 1;
+				}
+			}
+			else{
+				cout << "entered else for rotation" << endl;
+				n = rotateLeft(n);
+				if((n->left != NULL) && (n->right != NULL)){
+					cout << "hi" << endl;
+					n->height = max(n->left->height, n->right->height) + 1;
+				}
+				else if (n->left != NULL){
+					cout << "hi2" << endl;
+					n->height = n->left->height + 1;
+				}
+				else if (n->right != NULL){
+					cout << "hi 3" << endl;
+					n->height = n->right->height + 1;
+				}
+				else{
+					cout << "hi 4" << endl;
+					n->height = 1;
+				}
+			}
 
+		}
+		else{
+			cout << "entered else 2 AH" << endl;
+			n->height = n->right->height + 1;
+		}
 	}
 		cout << "assigned height " << n->data << ", " << n->height << endl;
 	if (n == root){
@@ -410,9 +539,11 @@ void BSTY::myPrint(NodeT *n) {
 NodeT *BSTY::find(string x) {
 	//cout << "entered find" << endl;
 	NodeT *tmp = root;
+	int comp = 0;
 	while(tmp != NULL){
 		//cout << "entered while find" << endl;
 		if(tmp->data == x){
+			comp ++;
 			return tmp;
 		}
 		else{
@@ -422,6 +553,7 @@ NodeT *BSTY::find(string x) {
 			else{
 				tmp = tmp->left;
 			}
+			comp += 2;
 		}
 	}
 	return tmp;
@@ -451,8 +583,11 @@ int BSTY::findBalance(NodeT *n){
 
 NodeT *BSTY::rotateRight(NodeT *n){
 	cout << "rotating right" << endl;
-
+	n->printNode();
+	//n->parent->printNode();
 	NodeT *tmp = n->left;
+	tmp->printNode();
+
 	if(tmp->right == NULL){
 		tmp->parent = n->parent;
 		n->parent = tmp;
@@ -531,30 +666,6 @@ NodeT *BSTY::rotateLeft(NodeT *n){
 }
 
 
-	/*
-
-	if(root == n){
-
-		root = tmp;
-		cout << "LL new root set" << endl;
-	}
-	else if(n->parent->left == n){
-		n->parent->left = tmp;
-		cout << "LR left sibling parent set" << endl;
-	}
-	else{
-		n->parent->right = tmp;
-		cout << "LR right sibling parent set" << endl;
-	}
-	if(n->left == NULL && n->right == NULL){
-			cout << "NULL" << endl;
-		}
-
-	n->parent = tmp;
-	//adjustHeights(n);
-	return tmp;
-
-	*/
 
 /*************************************************************************************/
 /* Extra Credit Methods                                                              */

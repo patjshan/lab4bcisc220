@@ -11,6 +11,16 @@ NodeT::NodeT(string x) {
 	right = NULL;
 	parent = NULL;
 	height = 1;
+	def = " ";
+}
+
+NodeT::NodeT(string x, string d) {
+	data = x;
+	left = NULL;
+	right = NULL;
+	parent = NULL;
+	height = 1;
+	def = d;
 }
 
 NodeT::~NodeT() {
@@ -20,7 +30,7 @@ NodeT::~NodeT() {
 }
 
 void NodeT::printNode() {
-	cout << "|"<<data << ", "<< height <<"|" << endl;
+	cout << "|"<< data << ", "<< height << ", " << def << "|" << endl;
 }
 
 

@@ -45,18 +45,18 @@ treePuzzle::treePuzzle(string fname,int k) {
 	cout << "*******************************"<<endl<<"INORDER " << endl;
 	tree->printTreeIO();
 	cout <<endl << "*******************************FIND" << endl;
-	tree->find("pichiciego");
-	tree->find("falanouc");
-	tree->find("blauwbok");
-	tree->find("dibatag");
-	tree->find("gharial");
-	tree->find("duarf");
-	tree->find("kinkajou");
-	tree->find("zyzzyva");
-	tree->find("tucutucu");
-	tree->find("tabanid");
-	tree->find("solenodon");
-	tree->find("axolotl");
+	tree->find("pichiciego")->printNode();
+	tree->find("falanouc")->printNode();
+	tree->find("blauwbok")->printNode();
+	tree->find("dibatag")->printNode();
+	tree->find("gharial")->printNode();
+	tree->find("duarf")->printNode();
+	tree->find("kinkajou")->printNode();
+	tree->find("zyzzyva")->printNode();
+	tree->find("tucutucu")->printNode();
+	tree->find("tabanid")->printNode();
+	tree->find("solenodon")->printNode();
+	tree->find("axolotl")->printNode();
 }
 void treePuzzle::readFile2(string fname, int size) {
 	ifstream file(fname.c_str());
@@ -65,12 +65,12 @@ void treePuzzle::readFile2(string fname, int size) {
 	int ct = 0;
 	while (!file.eof() && ct < size) {
 		file >> word;
-		//cout << word << endl;
+		cout << word << endl;
 		getline(file,def);
 		def = def.substr(2);
-		//tree->insertit(word, def);
+		tree->insertit(word, def);
 
-		//cout << def << endl;
+		cout << def << endl;
 	}
 
 }
