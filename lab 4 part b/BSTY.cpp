@@ -140,6 +140,7 @@ bool BSTY::insertit(string x, string y){
 // the loop has worked its way up to the root, or until the currently being checked
 // ancestor is not changed.  
 void BSTY::adjustHeights(NodeT *n) {
+	int count = 0;
 	n->printNode();
 	if((n->left == NULL) && (n->right == NULL)){
 		cout << "entered if AH" << endl;
@@ -158,23 +159,26 @@ void BSTY::adjustHeights(NodeT *n) {
 				n = rotateLeft(n->left);
 				n = rotateRight(n->parent->parent);
 				NodeT *tmp = n->parent->left;
-				if((tmp->left != NULL) && (tmp->right != NULL)){
-					//cout << "hi" << endl;
-					tmp->height = max(tmp->left->height, tmp->right->height) + 1;
+				cout << "entering if" << endl;
+				if (tmp != NULL){
+					if((tmp->left != NULL) && (tmp->right != NULL)){
+						cout << "hi" << endl;
+						tmp->height = max(tmp->left->height, tmp->right->height) + 1;
+					}
+					else if (tmp->right != NULL){
+						cout << "hi 2" << endl;
+						tmp->height = tmp->right->height + 1;
+					}
+					else if (tmp->left != NULL){
+						cout << "hi 3" << endl;
+						tmp->height = tmp->left->height + 1;
+					}
+					else{
+						cout << "hi 4" << endl;
+						tmp->height = 1;
+					}
 				}
-				else if (tmp->right != NULL){
-					//cout << "hi 2" << endl;
-					tmp->height = tmp->right->height + 1;
-				}
-				else if (tmp->left != NULL){
-					//cout << "hi 3" << endl;
-					tmp->height = tmp->left->height + 1;
-				}
-				else{
-					//cout << "hi 4" << endl;
-					tmp->height = 1;
-				}
-				tmp->printNode();
+
 				n->printNode();
 				if((n->left != NULL) && (n->right != NULL)){
 					n->height = max(n->left->height, n->right->height) + 1;
@@ -216,23 +220,26 @@ void BSTY::adjustHeights(NodeT *n) {
 				n = rotateRight(n->right);
 				n = rotateLeft(n->parent->parent);
 				NodeT *tmp = n->parent->right;
-				if((tmp->left != NULL) && (tmp->right != NULL)){
-					//cout << "hi" << endl;
-					tmp->height = max(tmp->left->height, tmp->right->height) + 1;
+				if(tmp != NULL) {
+
+					if((tmp->left != NULL) && (tmp->right != NULL)){
+						//cout << "hi" << endl;
+						tmp->height = max(tmp->left->height, tmp->right->height) + 1;
+					}
+					else if (tmp->right != NULL){
+						//cout << "hi 2" << endl;
+						tmp->height = tmp->right->height + 1;
+					}
+					else if (tmp->left != NULL){
+						//cout << "hi 3" << endl;
+						tmp->height = tmp->left->height + 1;
+					}
+					else{
+						//cout << "hi 4" << endl;
+						tmp->height = 1;
+					}
 				}
-				else if (tmp->right != NULL){
-					//cout << "hi 2" << endl;
-					tmp->height = tmp->right->height + 1;
-				}
-				else if (tmp->left != NULL){
-					//cout << "hi 3" << endl;
-					tmp->height = tmp->left->height + 1;
-				}
-				else{
-					//cout << "hi 4" << endl;
-					tmp->height = 1;
-				}
-				tmp->printNode();
+
 				n->printNode();
 				if((n->left != NULL) && (n->right != NULL)){
 					n->height = max(n->left->height, n->right->height) + 1;
@@ -276,28 +283,26 @@ void BSTY::adjustHeights(NodeT *n) {
 			if(findBalance(n->left) < 0){
 				cout << "entered if for rotation" << endl;
 				n = rotateLeft(n->left);
-				//n->printNode();
-				//n->parent->printNode();
-				//n->parent->parent->printNode();
 				n = rotateRight(n->parent->parent);
 				NodeT *tmp = n->parent->left;
-				if((tmp->left != NULL) && (tmp->right != NULL)){
-					//cout << "hi" << endl;
-					tmp->height = max(tmp->left->height, tmp->right->height) + 1;
+				if(tmp != NULL){
+					if((tmp->left != NULL) && (tmp->right != NULL)){
+						//cout << "hi" << endl;
+						tmp->height = max(tmp->left->height, tmp->right->height) + 1;
+					}
+					else if (tmp->right != NULL){
+						//cout << "hi 2" << endl;
+						tmp->height = tmp->right->height + 1;
+					}
+					else if (tmp->left != NULL){
+						//cout << "hi 3" << endl;
+						tmp->height = tmp->left->height + 1;
+					}
+					else{
+						//cout << "hi 4" << endl;
+						tmp->height = 1;
+					}
 				}
-				else if (tmp->right != NULL){
-					//cout << "hi 2" << endl;
-					tmp->height = tmp->right->height + 1;
-				}
-				else if (tmp->left != NULL){
-					//cout << "hi 3" << endl;
-					tmp->height = tmp->left->height + 1;
-				}
-				else{
-					//cout << "hi 4" << endl;
-					tmp->height = 1;
-				}
-				tmp->printNode();
 				n->printNode();
 				if((n->left != NULL) && (n->right != NULL)){
 					//cout << "hi" << endl;
@@ -345,26 +350,27 @@ void BSTY::adjustHeights(NodeT *n) {
 			cout << "entered if 2 AH" << endl;
 			if(findBalance(n->right) > 0){
 				cout << "entered if for rotation" << endl;
-				n = rotateRight(n->right);
-				n = rotateLeft(n->parent->parent);
+				n->right->right = rotateRight(n->right);
+				n = rotateLeft(n);
 				NodeT *tmp = n->parent->right;
-				if((tmp->left != NULL) && (tmp->right != NULL)){
-					//cout << "hi" << endl;
-					tmp->height = max(tmp->left->height, tmp->right->height) + 1;
+				if (tmp != NULL){
+					if((tmp->left != NULL) && (tmp->right != NULL)){
+						//cout << "hi" << endl;
+						tmp->height = max(tmp->left->height, tmp->right->height) + 1;
+					}
+					else if (tmp->right != NULL){
+						//cout << "hi 2" << endl;
+						tmp->height = tmp->right->height + 1;
+					}
+					else if (tmp->left != NULL){
+						//cout << "hi 3" << endl;
+						tmp->height = tmp->left->height + 1;
+					}
+					else{
+						//cout << "hi 4" << endl;
+						tmp->height = 1;
+					}
 				}
-				else if (tmp->right != NULL){
-					//cout << "hi 2" << endl;
-					tmp->height = tmp->right->height + 1;
-				}
-				else if (tmp->left != NULL){
-					//cout << "hi 3" << endl;
-					tmp->height = tmp->left->height + 1;
-				}
-				else{
-					//cout << "hi 4" << endl;
-					tmp->height = 1;
-				}
-				tmp->printNode();
 				n->printNode();
 				if((n->left != NULL) && (n->right != NULL)){
 					cout << "hi" << endl;
@@ -384,6 +390,7 @@ void BSTY::adjustHeights(NodeT *n) {
 				}
 			}
 			else{
+				count  = 1;
 				cout << "entered else for rotation" << endl;
 				n = rotateLeft(n);
 				if((n->left != NULL) && (n->right != NULL)){
@@ -411,7 +418,7 @@ void BSTY::adjustHeights(NodeT *n) {
 		}
 	}
 		cout << "assigned height " << n->data << ", " << n->height << endl;
-	if (n == root){
+	if (n == root || count > 0){
 
 	}
 	else{
@@ -625,7 +632,6 @@ NodeT *BSTY::rotateRight(NodeT *n){
 
 NodeT *BSTY::rotateLeft(NodeT *n){
 	cout << "rotating left" << endl;
-	n->parent->printNode();
 	n->printNode();
 	NodeT *tmp = n->right;
 	tmp->printNode();
@@ -662,6 +668,7 @@ NodeT *BSTY::rotateLeft(NodeT *n){
 			tmp->parent->left = tmp;
 		}
 	}
+	cout << "done" << endl;
 	return n;
 }
 

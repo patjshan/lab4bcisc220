@@ -13,20 +13,20 @@ using namespace std;
 int main() {
 
 	//PART 1
+	/*
 	string sarr[10] = {"run","tuxedo","ocelot","vast","bark","punctilios","ahello","is","sibylic","go"};
 	//cout << "made list" << endl;
 	treePuzzle(10,sarr,0);
 	//FOR EXTRA CREDIT
 
 	string sarr2[13] = {"xray","jack","superthriller","fa","noon","muddle","kindergartener","zoogeographical","window","dandelion","youthsploitation","byte","apple"};
-	treePuzzle(13,sarr2 ,1);
-
+	treePuzzle(13,sa*/
 
 
 
 	//PART 2
 
-/*
+
 	cout << endl << "A LOT OF LEFT ROTATIONS " << endl;
 	string sarr3[10] = {"a","b","c","d","e","f","g","h","i","j"};
 	//cout << "made list" << endl;
@@ -46,11 +46,10 @@ int main() {
 
 	cout << "end part 2" << endl;
 
-*/
+
 	//PART 3
-/*
+
 	treePuzzle("strangeAnimalDict.txt",439);
-*/
 
 
 
